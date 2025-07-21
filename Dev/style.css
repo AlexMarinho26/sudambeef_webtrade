@@ -1,4 +1,11 @@
 /*--------------------HEADER-----------------------*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
 header {
     display: flex;
     padding: 10px 20px;
@@ -55,9 +62,32 @@ header {
     border-radius: 999px;
 }
 
-/*--------------------HEADER-----------------------*/
+/*--------------------DASHBOARD-----------------------*/
 #Dashboard {
-  flex: 1;
-  background-color: red;
-  overflow: auto;
+    flex: 1;
+    overflow: auto;
+    min-height: 0;
+    padding: 0px 20px 10px 20px;
+    background-color: aquamarine;
+}
+
+#MenuResponsible {
+    width:30%;
+    background-color: red;
+}
+
+#MenuResponsibleTop {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background-color: aqua;
+}
+
+#TableRight{
+    width: 30%;
+    height: 10px;
+    background-color: green;
 }

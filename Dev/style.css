@@ -68,12 +68,11 @@ header {
     overflow: auto;
     min-height: 0;
     padding: 0px 20px 10px 20px;
-    background-color: aquamarine;
+    display: flex;
 }
 
 #MenuResponsible {
-    width:30%;
-    background-color: red;
+    width: 15%;
 }
 
 #MenuResponsibleTop {
@@ -83,11 +82,14 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 999px;
-    background-color: aqua;
 }
 
-#TableRight{
-    width: 30%;
-    height: 10px;
-    background-color: green;
+#TableRight {
+    flex: 1;
+    min-height: 10px;
+}
+
+#Button1, #Button2, #Button3{
+    background-color: red;
+    flex: 1;
 }
